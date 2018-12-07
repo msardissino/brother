@@ -1,0 +1,204 @@
+:root{
+  --colorMarca: #012f99;
+  --colorTitulos1: #a648a0;
+  --colorTitulos2: #11aad1;
+  --colorMenuMovil1: #2BD2BE;
+  --colorMenuMovil2: #2FB8A8;
+  --colorLetraMenu1: #ffffff;
+  --colorLetraMenu2: #FFEB05;
+  --colorFondoEtiquetas1: #F57C9D;
+  --colorFondoEtiquetas2: #B67CF5;
+  --colorTextos1: #000000;
+  --colorTextos2: #66666F;
+  --letra1:'Poiret One', cursive;
+}
+/********************************************************************************************/
+
+/*************************************BOX TITLE CSS******************************************/
+
+/********************************************************************************************/
+.box-title{
+  background-color: var(--colorMenuMovil1);
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+.box-item{
+  position:absolute;
+  bottom: -50px;
+  z-index: 500;
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 100px solid var(--colorMenuMovil1);
+  transform: rotate(180deg);
+}
+.title-box{
+  font-family: var(--letra1);
+  font-size: 50px;
+  position: relative;
+  z-index: 700;
+}
+@media (max-width:480px){
+  .box-item{
+    bottom: -40px;
+  }
+  .title-box{
+    font-size: 25px;
+  }
+}
+@media (min-width:480px){
+  .box-item{
+    bottom: -40px;
+  }
+  .title-box{
+    font-size: 30px;
+  }
+}
+
+/********************************************************************************************/
+
+/*******************************************NAV CSS******************************************/
+
+/********************************************************************************************/
+
+.bg-light{
+  background-color: #ffffff!important; /*Important que pisa el color de bootstrap por defecto*/
+}
+.navbar{
+  height: 150px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-brand{
+  color: var(--colorMarca)!important;
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar-brand span{
+  font-size: 18px;
+  margin-top: -15px;
+  font-family: var(--letra1);
+  font-weight: 800;
+}
+@media (max-width:991px){
+  .navbar-toggler{
+    border: none;
+  }
+  .navbar-toggler:focus{
+    outline: none;
+  }
+  .navbar-collapse{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--colorMenuMovil1);
+    /* margin-top: 45px; */
+  }
+  .navbar-collapse ul{
+    width: 100%;
+  }
+  .navbar-collapse ul li a{
+    color: var(--colorLetraMenu1)!important;
+    font-size: 20px;
+    font-family: var(--letra1);
+    letter-spacing: 1.2px;
+  }
+  a[aria-expanded="true"]:focus{
+    color: var(--colorLetraMenu2)!important;
+  }
+  .dropdown-toggle::after{
+    display: none;
+  }
+  .dropdown-menu{
+    background-color: var(--colorMenuMovil2)!important;
+    border: none;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-item{
+    margin: 0 20px;
+    border-bottom: 1px solid rgba(255,255,255,.4);
+  }
+   a.dropdown-item{
+    margin: 0;
+    padding: 0;
+  }
+  .color-active{
+    background-color: var(--colorLetraMenu2)!important;
+  }
+}
+@media (max-width:576px){
+  .xs-none{
+    display: none;
+  }
+}
+.jumbo .jumbotron{
+  margin-bottom: 0;
+}
+.underJumbo{
+
+  margin-bottom: 0;
+}
+.underJumbo img{
+  max-width: 100%;
+}
+
+.third-slide{
+  position: relative;
+}
+.carousel-caption{
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+  top: 0;
+  bottom: 50%;
+  width: 80%;
+}
+.carousel-caption img{
+  width: 12%;
+}
+.carousel-caption h5{
+  color: var(--colorMenuMovil1);
+  font-size: 20px;
+}
+.carousel-caption p
+{
+  color: var(--colorTextos1);
+  font-size: 100%;
+}
+
+.box-title-2{
+  background-color: var(--colorFondoEtiquetas1);
+}
+.box-item-2{
+  border-bottom-color: var(--colorFondoEtiquetas1);
+}
+
+.quarter-carrousel, .fifth-carrousel{
+  margin-top: 40px;
+}
+
+.box-title-3{
+  background-color: var(--colorFondoEtiquetas2);
+  margin-top: 30px;
+}
+.box-item-3{
+  border-bottom-color: var(--colorFondoEtiquetas2);
+}
