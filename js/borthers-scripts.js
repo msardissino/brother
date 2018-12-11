@@ -5,3 +5,8 @@ $btnHamburger.addEventListener('click', ()=>{
   $btnHamburger.classList.toggle('is-active');
   
 });
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});

@@ -202,3 +202,49 @@
 .box-item-3{
   border-bottom-color: var(--colorFondoEtiquetas2);
 }
+
+
+/* galeria de imagenes */
+
+.galery{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.galery a{
+  display: block;
+  max-width: 33%;
+}
+.galery a img{
+  max-width: 100%;
+  padding: 5px;
+}
+
+/* Footer */
+
+.footer{
+
+}
+.social{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.social li{
+  width: 50px;
+  height: 50px;
+  background-color: var(--colorMarca);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 10px;
+}
+.social li a{
+  color: var(--colorLetraMenu1);
+  transition: ease-in-out .3s;
+}
+
+.social li:hover a{
+ font-size: 1.7em;
+}
