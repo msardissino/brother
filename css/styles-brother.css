@@ -12,6 +12,15 @@
   --colorTextos2: #66666F;
   --letra1:'Poiret One', cursive;
 }
+
+/* clases  */
+.pink{
+  background-color: var( --colorFondoEtiquetas1)!important;
+}
+.b-pink{
+  border-bottom-color:var(--colorFondoEtiquetas1)!important;
+}
+/* clases  */
 /********************************************************************************************/
 
 /*************************************BOX TITLE CSS******************************************/
@@ -224,6 +233,52 @@
   padding: 5px;
 }
 
+/* Box Map */
+.box-map{
+  margin: 30px 0;
+}
+.box-map iframe{
+  max-width: 100%;
+}
+
+/* Box Map */
+
+/* btn ver mas Workshops & academias */
+.ver-mas{
+  color:var(--colorMenuMovil1);
+  margin: auto;
+  font-size: 18px;
+}
+.ver-mas:hover{
+  color: var(--colorMarca);
+  text-decoration: none;
+}
+/* btn ver mas Workshops & academias */
+/* Galery Academias */
+.galery-academias{
+  margin-top: 40px;
+}
+/* Galery Academias */
+/* canvas */
+  /* jumbo-canvas */
+  .img-canvas{
+    margin-top: 15px;
+    width: 70%;
+  }
+  .hr-canvas{
+    width: 3%;
+    height: .5px;
+    background-color:var(--colorMenuMovil1);
+    padding: .5px 0;
+  }
+  .lead-canvas{
+    color: var(--colorMenuMovil1);
+  }
+  .jumbo-canvas{
+    margin-bottom: 30px;
+  }
+  /* jumbo-canvas */
+/* canvas */
 /* Footer */
 
 .footer{
