@@ -203,6 +203,9 @@
   border-bottom-color: var(--colorFondoEtiquetas2);
 }
 
+.sixth-carrousel{
+  margin-bottom: 30px;
+}
 
 /* galeria de imagenes */
 
@@ -229,7 +232,11 @@
 .social{
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 200px;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 30px;
 }
 .social li{
   width: 50px;
