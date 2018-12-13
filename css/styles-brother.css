@@ -51,6 +51,10 @@
 .b-pink{
   border-bottom-color:var(--colorFondoEtiquetas1);
 }
+.p-fluid{
+  padding-right: 0;
+  padding-left: 0;
+}
 /* clases  */
 
 .title-box{
@@ -86,22 +90,17 @@
   background-color: #ffffff!important; /*Important que pisa el color de bootstrap por defecto*/
 }
 .navbar{
+  padding: 35px 0;
   padding-right: 0;
   padding-left: 0;
 }
 .navbar-brand{
-  color: var(--colorMarca)!important;
-  font-family: 'Righteous', cursive;
-  font-size: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding-left: 10px;
 }
-.navbar-brand span{
-  font-size: 18px;
-  margin-top: -15px;
-  font-family: var(--letra1);
-  font-weight: 800;
+.icon-search:before{
+  font-size: 33px;
+  padding-right: 50px;
+  color: var(--colorMenuMovil1);
 }
 @media (max-width:991px){
   .navbar-toggler{
@@ -114,8 +113,6 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     z-index: 1000;
     width: 100%;
@@ -130,6 +127,8 @@
     font-size: 20px;
     font-family: var(--letra1);
     letter-spacing: 1.2px;
+    text-align: left;
+    padding-left: 10px;
   }
   a[aria-expanded="true"]:focus{
     color: var(--colorLetraMenu2)!important;
@@ -157,7 +156,7 @@
 }
 /* burguer color */
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
-  background-color: var(--colorMarca);
+  background-color: var(--colorMenuMovil1);
 }
 /* burguer color */
 @media (max-width:576px){
@@ -207,9 +206,11 @@
     }  
 /* custom imagenes corousel */
 .quarter-carrousel, .fifth-carrousel{
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
-
+.sixth-carrousel .carousel-item{
+  background-color: #E4E7EF;
+}
 .box-title-3{
   background-color: var(--colorFondoEtiquetas2);
 }
@@ -363,3 +364,36 @@
   padding-top: 0;
   margin-top: -15px;
 }
+
+
+/* Custom stilos carousel controls*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color: var(--colorTextos2);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color: var(--colorTextos2);
+}
+.carousel-indicators li{
+  background-color: var(--colorMenuMovil1);
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 0 10px;
+}
+/* Custom stilos carousel controls*/
