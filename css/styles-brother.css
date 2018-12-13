@@ -13,14 +13,7 @@
   --letra1:'Poiret One', cursive;
 }
 
-/* clases  */
-.pink{
-  background-color: var( --colorFondoEtiquetas1)!important;
-}
-.b-pink{
-  border-bottom-color:var(--colorFondoEtiquetas1)!important;
-}
-/* clases  */
+
 /********************************************************************************************/
 
 /*************************************BOX TITLE CSS******************************************/
@@ -40,16 +33,26 @@
 }
 .box-item{
   position:absolute;
-  bottom: -50px;
+  bottom: -40px;
   z-index: 500;
   width: 0;
   height: 0;
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
-  border-bottom: 100px solid var(--colorMenuMovil1);
+  border-right: 35px solid transparent;
+  border-left: 35px solid transparent;
+  border-bottom: 40px solid var(--colorMenuMovil1);
   transform: rotate(180deg);
   overflow: hidden;
 }
+
+/* clases  */
+.pink{
+  background-color: var( --colorFondoEtiquetas1);
+}
+.b-pink{
+  border-bottom-color:var(--colorFondoEtiquetas1);
+}
+/* clases  */
+
 .title-box{
   font-family: var(--letra1);
   font-size: 50px;
@@ -153,6 +156,11 @@
     background-color: var(--colorLetraMenu2)!important;
   }
 }
+/* burguer color */
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
+  background-color: var(--colorMarca);
+}
+/* burguer color */
 @media (max-width:576px){
   .xs-none{
     display: none;
@@ -162,7 +170,6 @@
   margin-bottom: 0;
 }
 .underJumbo{
-
   margin-bottom: 0;
 }
 .underJumbo img{
@@ -192,13 +199,6 @@
 {
   color: var(--colorTextos1);
   font-size: 100%;
-}
-
-.box-title-2{
-  background-color: var(--colorFondoEtiquetas1);
-}
-.box-item-2{
-  border-bottom-color: var(--colorFondoEtiquetas1);
 }
 
 .quarter-carrousel, .fifth-carrousel{
