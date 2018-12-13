@@ -199,7 +199,13 @@
   color: var(--colorTextos1);
   font-size: 100%;
 }
-
+/* custom imagenes corousel */
+.custom{
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 40px;
+    }  
+/* custom imagenes corousel */
 .quarter-carrousel, .fifth-carrousel{
   margin-top: 40px;
 }
@@ -234,10 +240,12 @@
 
 /* Box Map */
 .box-map{
-  margin: 30px 0;
+  margin: 40px 0;
+  display: flex;
 }
 .box-map iframe{
   max-width: 100%;
+  margin: 0 auto;
 }
 
 /* Box Map */
@@ -342,4 +350,16 @@
 
 .social li:hover a{
  font-size: 1.7em;
+}
+.col-by{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.col-by p:nth-child(2){
+  padding-top: 0;
+  margin-top: -15px;
 }
