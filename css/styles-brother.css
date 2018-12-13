@@ -279,6 +279,40 @@
   }
   /* jumbo-canvas */
 /* canvas */
+
+/* Preguntas frecuentes */
+  /* cards */
+  .accordion{
+    border: none;
+  }
+  .card-header{
+    background-color: #fff;
+  }
+  /* cards */
+  /* btn & span  */
+  .preguntas-frecuentes{
+    margin-bottom: 30px;
+  }
+  
+  .icon-preg{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-right: 5px;
+    color: var(--colorMenuMovil1);
+    border: 1.5px solid var(--colorMenuMovil1);
+  }
+  .btn-preg{
+    color: var(--colorTextos1);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn-preg:hover{
+    text-decoration: none;
+    color: var(--colorTextos1);
+  }
+  /* btn & span  */
+/* Preguntas frecuentes */
 /* Footer */
 
 .footer{
