@@ -86,7 +86,6 @@
   background-color: #ffffff!important; /*Important que pisa el color de bootstrap por defecto*/
 }
 .navbar{
-  height: 150px;
   padding-right: 0;
   padding-left: 0;
 }
