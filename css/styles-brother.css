@@ -125,11 +125,17 @@
   }
   .navbar-collapse ul li a{
     color: var(--colorLetraMenu1)!important;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 600;
     font-family: var(--letra1);
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
     text-align: left;
-    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px!important;
+  }
+  .navbar-collapse ul li a:hover{
+    color: var(--colorLetraMenu2)!important;
   }
   a[aria-expanded="true"]:focus{
     color: var(--colorLetraMenu2)!important;
@@ -149,7 +155,7 @@
   }
    a.dropdown-item{
     margin: 0;
-    padding: 0;
+    padding: 5px 0!important;
   }
   .color-active{
     background-color: var(--colorLetraMenu2)!important;
@@ -209,8 +215,11 @@
 .quarter-carrousel, .fifth-carrousel{
   /* margin-top: 40px; */
 }
-.sixth-carrousel .carousel-item{
-  background-color: #E4E7EF;
+.sixth-carrousel .carousel-item, .second-carrousel .carousel-item{
+  background-color: #E7EAF2;
+}
+.second-carrousel .carousel-item{
+  padding-top: 10px;
 }
 .box-title-3{
   background-color: var(--colorFondoEtiquetas2);
@@ -337,12 +346,12 @@
   margin-bottom: 30px;
 }
 .social li{
-  width: 50px;
-  height: 50px;
-  background-color: var(--colorMarca);
+  width: 30px;
+  height: 30px;
+  background-color: #326EA6;
   border-radius: 100%;
   text-align: center;
-  line-height: 50px;
+  line-height: 30px;
   margin-left: 10px;
 }
 .social li a{
@@ -351,7 +360,7 @@
 }
 
 .social li:hover a{
- font-size: 1.7em;
+ font-size: 1.3em;
 }
 .col-by{
   width: 100%;
@@ -382,13 +391,13 @@
 {
   content: '>';
   font-size: 30px;
-  color: var(--colorTextos2);
+  color: rgb(43, 43, 44);
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 30px;
-  color: var(--colorTextos2);
+  color: rgb(43, 43, 44);
 }
 .carousel-indicators li{
   background-color: var(--colorMenuMovil1);
