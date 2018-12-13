@@ -96,14 +96,14 @@
   
 }
 .navbar-brand{
-  padding-left: 50px;
+  padding-left: 35px;
 }
 .navbar-brand img{
   width: 80%;
 }
 .icon-search:before{
   font-size: 32px;
-  padding-right: 100px;
+  padding-right: 80px;
   color: var(--colorMenuMovil1);
 }
 @media (max-width:991px){
@@ -173,7 +173,7 @@
 }
 /* burguer color */
 .hamburger-inner{
-  right: 30px;
+  right: 20px;
 }
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after{
   background-color: var(--colorMenuMovil1);
