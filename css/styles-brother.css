@@ -102,10 +102,28 @@
 .navbar-brand img{
   width: 80%;
 }
-.icon-search:before{
+.lupa:before{
+  position: absolute;
   font-size: 32px;
-  padding-right: 80px;
+  top: 35%;
+  right: 17%;
   color: var(--colorMenuMovil1);
+}
+.btn-search{
+  background-color: transparent;
+  outline: none;
+  border:none;
+  cursor: pointer;
+}
+.btn-search:focus{
+  outline: none;
+}
+.btn-search-modal, .input-search-lupa{
+  background-color: var(--colorMenuMovil1);
+  color: #ffffff;
+}
+.input-search:focus{
+  outline-color: red;
 }
 @media (max-width:991px){
   .navbar-toggler{
