@@ -97,6 +97,7 @@
 }
 .navbar-brand{
   padding-left: 35px;
+  margin-right: 0;
 }
 .navbar-brand img{
   width: 80%;
@@ -109,6 +110,8 @@
 @media (max-width:991px){
   .navbar-toggler{
     border: none;
+    padding-right: 0;
+    padding-left: 0;
   }
   .navbar-toggler:focus{
     outline: none;
