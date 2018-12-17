@@ -27,38 +27,36 @@
           <a class="navbar-brand" href="index.html">
             <img src="images/logo.png" alt="logo-brothers">
           </a>
-                    <!-- btn Search -->
-                    <button class="btn-search">
-                        <span class="icon-search lupa d-lg-none"></span>
-                      </button>
-                      <!-- Modal Search -->
-                      <!-- Button trigger modal -->
-                 
-                        <!-- Modal -->
-                        <div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="searchModalLabel">Buscar ...</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                                </button>
-                              </div>
-                              <div class="modal-body">
-                                  <div class="input-group mb-3">
-                                    <input type="text" class="form-control" placeholder="Search" aria-label="search" aria-describedby="basic-addon1">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text icon-search" id="basic-addon1"></span>
-                                        </div>
-                                    </div>
-                              </div>
-                              <div class="modal-footer">
-                                <button type="submit" class="btn btn-primary">Buscar</button>
-                              </div>
+                    <!-- Modal Search -->
+          <!-- Button trigger modal -->
+            <button  type="button" class="btn-search" data-toggle="modal" data-target="#search" class="">
+                <span class="icon-search lupa d-lg-none"></span>
+              </button>
+            <!-- Modal -->
+            <div class="modal fade" id="search" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="searchModalLabel">Buscar ...</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Buscar" aria-label="search" aria-describedby="basic-addon1">
+                            <div class="input-group-prepend ">
+                              <span class="input-group-text icon-search input-search-lupa" id="basic-addon1"></span>
                             </div>
-                          </div>
                         </div>
-                      <!--Fin Modal Search -->
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-search-modal">Buscar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!--Fin Modal Search -->
           <button class="navbar-toggler hamburger hamburger--collapse" type="button" id="hamburger" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="hamburger-box">
                   <span class="hamburger-inner" id="spanburger"></span>
