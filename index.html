@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="css/hamburger.css">
   <!-- fontello -->
   <link rel="stylesheet" href="css/fontello.css">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper.css">
   <!-- custom css brothers -->
 <link rel="stylesheet" href="css/styles-brother.css"/>
 </head>
@@ -26,10 +28,7 @@
           <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="logo-brothers">
           </a>
-          <!-- btn Search -->
-          <!-- <button class="btn-search">
-            <span class="icon-search lupa d-lg-none"></span>
-          </button> -->
+
           <!-- Modal Search -->
           <!-- Button trigger modal -->
             <button  type="button" class="btn-search" data-toggle="modal" data-target="#search" class="">
@@ -68,14 +67,14 @@
         
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-lg-auto">
-              <li class="nav-item active xs-none d-sm-none d-md-none d-lg-block">
-                <a class="nav-link" href="#">Inicio</a>
+              <li class="nav-item nav-item-desktop active xs-none d-sm-none d-md-none d-lg-block">
+                <a class="nav-link link-desktop" href="#">Inicio</a>
               </li>
-              <li class="nav-item xs-none d-sm-none d-md-none d-lg-block">
-                  <a class="nav-link" href="#Productos">Productos</a>
+              <li class="nav-item nav-item-desktop xs-none d-sm-none d-md-none d-lg-block">
+                  <a class="nav-link link-desktop" href="#Productos">Productos</a>
                 </li>
-                <li class="nav-item xs-none d-sm-none d-md-none d-lg-block">
-                  <a class="nav-link" href="#Proyectos">Proyectos</a>
+                <li class="nav-item nav-item-desktop xs-none d-sm-none d-md-none d-lg-block">
+                  <a class="nav-link link-desktop" href="#Proyectos">Proyectos</a>
                 </li>
               <li class="nav-item dropdown d-lg-none">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -112,22 +111,25 @@
         <!-- Fin Nav -->
         <main>
           <!-- Section Carrusel #1 -->
-          <section class="first-carrousel">
+          <section class="first-carrousel first-carrousel-desktop">
               <div id="carouselfirst-carrousel" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#carouselfirst-carrousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselfirst-carrousel" data-slide-to="1"></li>
                     <li data-target="#carouselfirst-carrousel" data-slide-to="2"></li>
                   </ol>
-                  <div class="carousel-inner">
+                  <div class="carousel-inner carousel-inner-desktop ">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="images/carousel/banner-movil.png"  alt="First slide">
+                      <img class="d-block w-100 d-lg-none" src="images/carousel/banner-movil.png"  alt="First slide">
+                      <img class="d-block w-100 xs-none d-sm-none d-md-none d-lg-block" src="images/carousel/carousel.jpg"  alt="First slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/carousel/banner-movil.png" alt="Second slide">
+                      <img class="d-block w-100 d-lg-none" src="images/carousel/banner-movil.png" alt="Second slide">
+                      <img class="d-block w-100 xs-none d-sm-none d-md-none d-lg-block" src="images/carousel/carousel.jpg"  alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                      <img class="d-block w-100" src="images/carousel/banner-movil.png" alt="Third slide">
+                      <img class="d-block w-100 d-lg-none" src="images/carousel/banner-movil.png" alt="Third slide">
+                      <img class="d-block w-100 xs-none d-sm-none d-md-none d-lg-block" src="images/carousel/carousel.jpg"  alt="Third slide">
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#carouselfirst-carrousel" role="button" data-slide="prev">
@@ -141,16 +143,209 @@
                 </div>
           </section>
           <!-- Fin Section Carrousel #1 -->
+          <!-- In Desktop Box title #1 -->
+          <section class="desktopbox-title xs-none d-sm-none d-md-none d-lg-block">
+            <h2 class="title-boxDesktop">¡Te presentamos el primer plotter de corte para uso doméstico!</h2>
+          </section>
+          <!-- In Desktop Box title #1 -->
+          <!-- In Desktop Box Product #2 -->
+          <section class="boxProduct-desktop xs-none d-sm-none d-md-none d-lg-block">
+            <div class="row">
+              <div class="col-lg-6 col-img-BoxProduct-desktop">
+                <img class="img-productBox-desktop" src="images/carousel/cinco.png" alt="img-brother">
+              </div>
+              <div class="col-lg-6 col-text-BoxProduct-desktop">
+                <p class="text-productBox-desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quibusdam quidem modi aperiam labore! Labore dolorem quia earum neque iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur nemo dicta laudantium ut enim, consequuntur laboriosam saepe. Eius, nisi.</p>
+                <p class="text-productBox-desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quae voluptas esse est hic, perspiciatis quam ea blanditiis deserunt quibusdam assumenda sed possimus maxime voluptates. Facere nulla ipsam amet aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque pariatur nemo dicta laudantium ut enim, consequuntur laboriosam saepe. Eius, nisi.</p>
+              </div>
+            </div>
+          </section>
+          <!-- In Desktop Box Product #2 -->
+          <!-- In Desktop Box Product-description #3 -->
+          <section class="boxProduct-descriptionDesk xs-none d-sm-none d-md-none d-lg-block">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row row-boxDescription-desktop">
+                  <div class="col-12 colDescription-desktop">
+                    <img src="images/ok-circle.png" alt="brother-img">
+                    <div class="interBox-textDescription">
+                      <h4 class="titleBoxDescription-desktop">Lorem ipsum dolor sit.</h4>
+                      <p class="textDescription-desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga iste officia, magni odit ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officia, maiores dolores velit adipisci aliquid?</p>
+                    </div>
+                  </div>
+                  <div class="col-12 colDescription-desktop">
+                    <img src="images/ok-circle.png" alt="brother-img">
+                    <div class="interBox-textDescription">
+                      <h4 class="titleBoxDescription-desktop">Lorem ipsum dolor sit.</h4>
+                      <p class="textDescription-desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga iste officia, magni odit ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officia, maiores dolores velit adipisci aliquid?</p>
+                    </div>
+                  </div>
+                  <div class="col-12 colDescription-desktop">
+                    <img src="images/ok-circle.png" alt="brother-img">
+                    <div class="interBox-textDescription">
+                      <h4 class="titleBoxDescription-desktop">Lorem ipsum dolor sit.</h4>
+                      <p class="textDescription-desktop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga iste officia, magni odit ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni officia, maiores dolores velit adipisci aliquid?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-imgBoxDescription-desktop">
+                <img class="img-BoxDescription-desktop" src="images/carousel/escanea.png" alt="img-brother">
+              </div>
+            </div>
+          </section>
+          <!-- In Desktop Box Product-description #3 -->
+          <!-- In Desktop Box Accesorios -->
+          <section class="box-accesorios-desktop xs-none d-sm-none d-md-none d-lg-block">
+            <div class="title-accesoriosBox">
+              <h3>Accesorios</h3>
+            </div>
+            <div class="navegacion-accesoriosBox">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Cuchillas y Lápices</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Strass</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Embosing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Sellos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Usb's Patrones</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Otros accesorios</a>
+                    </li>
+                  </ul>
+            </div>
+            <div class="slideProductos-accesoriosBox">
+                <!-- Swiper -->
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto2.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto3.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto2.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto2.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto3.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                      <div class="swiper-slide">
+                        <img src="images/carousel/producto.png" alt="" class="img-swiper">
+                        <div class="description-accesorio">
+                          <h5 class="title-accesorio">Lorem ipsum dolor sit amet.</h5>
+                          <p class="text-accesorio">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit deleniti inventore magnam molestias quam.</p>
+                        </div> 
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                  </div>
+            </div>
+          </section>
+          <!-- In Desktop Box Accesorios -->
+          
+          <!-- In Desktop Box Proyectos -->
+          <section class="boxProyectos-descktop xs-none d-sm-none d-md-none d-lg-block">
+            <div class="title-boxProyectos">
+              <h3>Descubrí Todo lo que podés hacer</h3>
+            </div>
+            <div class="row rowBoxProyectos">
+              <div class="col-lg-4 col-Proyecto-desktop">
+                <img src="images/carousel/proyecto1.png" alt="" class="img-proyectoDesktop d-blocl w-100">
+              </div>
+              <div class="col-lg-4 col-Proyecto-desktop">
+                <img src="images/carousel/proyecto2.png" alt="" class="img-proyectoDesktop d-blocl w-100">
+              </div>
+              <div class="col-lg-4 col-Proyecto-desktop">
+                <img src="images/carousel/proyecto3.png" alt="" class="img-proyectoDesktop d-blocl w-100">
+              </div>
+            </div>
+            <div class="row rowBoxProyectos">
+              <div class="col-lg-4 col-Proyecto-desktop">
+                <img src="images/carousel/proyecto4.png" alt="" class="img-proyectoDesktop  d-blocl w-100">
+              </div>
+              <div class="col-lg-4 col-Proyecto-desktop">
+                <img src="images/carousel/proyecto5.png" alt="" class="img-proyectoDesktop d-blocl w-100">
+              </div>
+              <div class="col-lg-4 col-Proyecto-desktop">
+                <img src="images/carousel/proyecto6.png" alt="" class="img-proyectoDesktop d-blocl w-100">
+              </div>
+            </div>
+            <div class="btn-BoxProyectos">
+              <a href="#" class="link-BoxProyectos d-block">Ver todos los Proyectos</a>
+            </div>
+          </section>
+          <!-- In Desktop Box Proyectos -->
 
           <!-- box title -->
-          <div class="box-title">
+          <div class="box-title d-lg-none">
             <h2 class="title-box">Escaneá, cortá y dibujá</h2>
             <div class="box-item"></div>
           </div>
           <!--Fin box title -->
 
           <!-- Section Carrusel #2 -->
-          <section class="second-carrousel">
+          <section class="second-carrousel d-lg-none">
               <div id="second-carrousel" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -176,7 +371,7 @@
           <!-- Fin Section Carrousel #2 -->
 
           <!-- Section #3 Jumbotron  -->
-          <section class="jumbo">
+          <section class="jumbo d-lg-none">
             <div class="jumbotron jumbotron-fluid">
               <div class="container text-center">
                 <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi corporis numquam eaque neque temporibus sint tempora, unde dignissimos doloribus sapiente sit facilis ipsum odit. Libero molestias sed cum rem quisquam.</p>
@@ -189,7 +384,7 @@
           <!--Fin Section #3 Jumbotron  -->
 
           <!-- Section Carrusel #3 -->
-          <section class="third-carrousel">
+          <section class="third-carrousel d-lg-none">
               <div id="third-carrousel" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -215,14 +410,14 @@
           <!-- Fin Section Carrousel #3 -->
 
           <!-- box title  #2-->
-            <div class="box-title pink">
+            <div class="box-title pink d-lg-none">
                 <h2 class="title-box">Descubrí todo lo que podes hacer.</h2>
                 <div class="box-item b-pink"></div>
             </div>
           <!--Fin box title #2 -->
         
         <!-- Section Carrusel #4 -->
-        <section class="quarter-carrousel">
+        <section class="quarter-carrousel d-lg-none">
             <div id="quarter-carrousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -248,7 +443,7 @@
         <!-- Fin Section Carrousel #4 -->
 
         <!-- Section Carrusel #5 -->
-        <section class="fifth-carrousel">
+        <section class="fifth-carrousel d-lg-none">
             <div id="fifth-carrousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -274,14 +469,14 @@
         <!-- Fin Section Carrousel #5 -->
 
         <!-- box title  #3-->
-        <div class="box-title box-title-3">
+        <div class="box-title box-title-3 d-lg-none">
             <h2 class="title-box">Accesorios adicionales.</h2>
             <div class="box-item box-item-3"></div>
         </div>
       <!--Fin box title #3 -->
         
     <!-- Section Carrusel #6 -->
-    <section class="sixth-carrousel">
+    <section class="sixth-carrousel d-lg-none">
         <div id="sixth-carrousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -307,25 +502,45 @@
     <!-- Fin Section Carrousel #6 -->
         </main>
 
-        <footer class="footer">
+        <footer class="footer desktop-footer">
+          <div class="marcaFooter xs-none d-sm-none d-md-none d-lg-block">
+            <img src="images/logo.png" alt="logoBrother">
+          </div>
             <nav class="footer-nav">
               <ul class="social">
-                <li><a href="https://instagram.com" target="_blank" ><span class="icon-instagram"></span></a></li>
-                <li><a href="https://youtube.com" target="_blank" ><span class="icon-youtube"></a></li>
-                <li><a href="https://facebook.com" target="_blank"><span class="icon-facebook"></a></li>
+                <li class="d-lg-none"><a href="https://instagram.com" target="_blank" ><span class="icon-instagram"></span></a></li>
+                <li class="xs-none d-sm-none d-md-none d-lg-block facebook"><a href="https://facebook.com" target="_blank"><span class="icon-facebook in-desktop"></a></li>
+                  <li class="d-lg-none"><a href="https://youtube.com" target="_blank" ><span class="icon-youtube"></a></li>
+                    <li class="xs-none d-sm-none d-md-none d-lg-block twitter"><a href="https://twitter.com" target="_blank" ><span class="icon-twitter in-desktop"></a></li>
+                      <li class="d-lg-none"><a href="https://facebook.com" target="_blank"><span class="icon-facebook"></a></li>
+                        <li class="xs-none d-sm-none d-md-none d-lg-block"><a href="https://instagram.com" target="_blank" ><span class="icon-instagram in-desktop"></span></a></li>
               </ul>
             </nav>
-            <div class="col-by">
+            <div class="col-by d-lg-none">
                 <p>Brother® Copyright© 2018 </p>
               </div>
             </footer>
-
+            <div class="col-by-desktop xs-none d-sm-none d-md-none d-lg-block">
+                <p>Brother® Copyright© 2018 - Términos y Condiciones </p>
+              </div>
 
   </div> <!--Fin Container Principal Fluid-->
   <!-- Sripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/swiper.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      });
+    </script>
   <!-- customs Scripts -->
   <script src="js/borthers-scripts.js"></script>
 </body>
