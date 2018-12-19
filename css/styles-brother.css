@@ -452,6 +452,9 @@
 
 /* Desktop Styles */
 @media (min-width:992px){
+  .navbar-brand img{
+    width: 100%;
+  }
   .p-fluid{
     padding-right: 50px;
     padding-left: 50px;
