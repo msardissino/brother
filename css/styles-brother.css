@@ -643,6 +643,9 @@
   .swiper-slide-next{
     background-color:var(--background2);
   }
+  .slideProductos-accesoriosBox .img-swiper{
+    max-width: 100%;
+  }
   .description-accesorio{
     display: flex;
     flex-direction: column;
@@ -661,6 +664,7 @@
     line-height: 1.5;
     letter-spacing: 1px;
     color: var(--colorTextos1);
+    text-align: center;
   }
   /* slide Productos / accesorios  */
   /* box Accesorios */
@@ -745,4 +749,26 @@
   /* box desktop Footer */
 
 } /*--Fin Media query min-992px--*/
+
+@media screen and (max-width:576px){
+  .d-xs-none{
+    display: none!important;
+  }
+}
 /* Desktop Styles */
+
+.logoscanCut{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logoscanCut p{
+  color: #005AAF;
+  font-family: var(--letra2);
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
