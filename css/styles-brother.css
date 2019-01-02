@@ -757,6 +757,7 @@
 }
 /* Desktop Styles */
 
+/* MODIFICACIONES SEGUN FEEDBACK */
 .logoscanCut{
   width: 100%;
   background-color: #fff;
@@ -772,3 +773,83 @@
   letter-spacing: 1.2px;
   font-weight: 600;
 }
+
+/* CARROUSEL ACCESORIOS MOVIL */
+.link-accesorio-detail,.link-accesorio-detail-movil{
+  color: var(--colorMenuMovil1);
+  padding: 15px 0;
+  font-size: 18px;
+  transition: .6s;
+}
+.boxlinkaccesorios{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.link-accesorio-detail-movil{
+  padding: 0 15px;
+}
+.link-accesorio-detail-movil:hover, .link-accesorio-detail:hover{
+  text-decoration: none;
+}
+/* detalle producto final */
+  .detalleProducto{
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 20px;
+  }
+/* img */
+ul.thumb{
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+ul.thumb li{
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  width: 70px;
+  height: 70px;
+  border: 1.5px solid #2BD2BE;
+  border-radius: 5px;
+  overflow: hidden;
+  
+}
+ul.thumb li img{
+  width: 90%;
+  
+}
+.imgBox{
+  width: 100%;
+  margin: 5px;
+  padding: 15px;
+  border: 1.5px solid #2BD2BE;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* img */
+/* details */
+  .detalleProductoDescription .titleDesciption{
+    font-family: var(--letra2);
+    display: inline-block;
+    padding-bottom: 5px;
+    border-bottom: 2.5px solid #2BD2BE;
+  }
+  .textDescription{
+    font-family: var(--letra2);
+    letter-spacing: 1.2px;
+    font-size: 14px;
+  }
+  ul.listdetails{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .ok-color{
+    color:#2BD2BE;
+  }
+/* details */
+/* detalle producto final */

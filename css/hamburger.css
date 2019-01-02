@@ -26,8 +26,8 @@
   .hamburger.is-active .hamburger-inner,
   .hamburger.is-active .hamburger-inner::before,
   .hamburger.is-active .hamburger-inner::after {
-    background-color:#FFEB05; }
-
+    background-color:#012f99; }
+/* modificado el color de la cruz para cerrar el menu movil */
 .hamburger-box {
   width: 40px;
   height: 24px;
