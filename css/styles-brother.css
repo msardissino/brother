@@ -786,7 +786,7 @@
   display: flex;
   justify-content: center;
 }
-.link-accesorio-detail-movil{
+.link-accesorio-detail-movil,  .link-accesorio-detail{
   padding: 5px 25px;
   margin-bottom: 15px;
   border: 2px solid var(--colorFondoEtiquetas2); 
@@ -795,11 +795,10 @@
 }
 .link-accesorio-detail-movil:hover, .link-accesorio-detail:hover{
   text-decoration: none;
-}
-.link-accesorio-detail-movil:hover{
   background-color: var(--colorFondoEtiquetas2);
   color: #ffffff;
 }
+
 /* detalle producto final */
   .detalleProducto{
     background-color: #fff;
