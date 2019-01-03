@@ -776,7 +776,7 @@
 
 /* CARROUSEL ACCESORIOS MOVIL */
 .link-accesorio-detail,.link-accesorio-detail-movil{
-  color: var(--colorMenuMovil1);
+  color: var(--colorFondoEtiquetas2);
   padding: 15px 0;
   font-size: 18px;
   transition: .6s;
@@ -787,10 +787,18 @@
   justify-content: center;
 }
 .link-accesorio-detail-movil{
-  padding: 0 15px;
+  padding: 5px 25px;
+  margin-bottom: 15px;
+  border: 2px solid var(--colorFondoEtiquetas2); 
+  border-radius: 3px;
+  transition: .7s;
 }
 .link-accesorio-detail-movil:hover, .link-accesorio-detail:hover{
   text-decoration: none;
+}
+.link-accesorio-detail-movil:hover{
+  background-color: var(--colorFondoEtiquetas2);
+  color: #ffffff;
 }
 /* detalle producto final */
   .detalleProducto{
