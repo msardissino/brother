@@ -206,7 +206,8 @@
     $(document).ready(function(){
         $('.thumb a').mouseover(function(e){
           e.preventDefault();
-          $('.imgBox img').attr("src", $(this).attr("href"));
+          $('.imgBox img').attr("src", $(this).attr("href"))
+          $('.imgBox a').attr("href", $(this).attr("href"));
         })
     })
   </script>

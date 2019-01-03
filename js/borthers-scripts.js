@@ -8,8 +8,8 @@ $btnHamburger.addEventListener('click', ()=>{
 });
 // Fin Burguer btn Movil menu
 // Light Box
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
+$(document).on('click', '[data-toggle="lightbox"]', function(e) {
+  e.preventDefault();
   $(this).ekkoLightbox();
 });
 // Fin Light Box
